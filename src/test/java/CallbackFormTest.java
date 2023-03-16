@@ -18,7 +18,6 @@ public class CallbackFormTest {
     @Test
     public void EnteringValidData() {
 
-//        Configuration.browser = ("safari");
         open("http://localhost:9999");
         $("[data-test-id='city'] input").setValue("Барнаул");
         String data = dateWeNeed(4,"dd.MM.yyyy");
